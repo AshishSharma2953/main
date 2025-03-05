@@ -1,0 +1,302 @@
+@import url('https://fonts.googleapis.com/css2?family=Saira+Condensed:wght@100;200;300;400;500;600;700;800;900&family=Saira:ital,wght@0,100..900;1,100..900&display=swap');
+
+
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family:sans-serif;
+}
+body{
+    z-index: 1;
+}
+
+
+.top-home-img img {
+    width: 100%;
+}
+
+section{
+    margin: 0 2rem;
+    padding: 20px 0;
+
+}
+
+.about-our-hospital {
+    display: flex;
+    flex-direction: column;
+
+}
+
+.about-our-hospital h1 {
+    font-size: 40px;
+    color: #126385;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.about-our-hospital p {
+    font-size: 1rem;
+    line-height: 2;
+}
+
+.mission-vission {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+.mission{ 
+    border: 2px solid #126385;
+    border-radius: 10px;
+    box-shadow: 8px 7px 23px 0px rgba(0, 0, 0, 0.5);
+    line-height: 1.5;
+    padding: 0 5px 20px 5px;
+    width: calc(100% / 2 - 55px);
+}
+
+.mission h1 {
+    color: #126385;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    font-size: 30px;
+    text-align: center;
+}
+
+.our-services {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.service {
+    margin: 5px 15px 5px 15px;
+    padding: 25px 10px 35px 10px;
+    border-radius: 15px;
+    box-shadow: 8px 7px 23px 0px rgba(0, 0, 0, 0.5);
+    border: 2px solid #126385;
+    line-height: 1.5;
+    height: 350px;
+    width: calc(100% / 4 - 15px);
+}
+
+
+
+.service i {
+    margin: 0.5rem 0 1rem 0;
+    font-size: 3rem;
+    color: #5e8ea2
+}
+
+.service h1 {
+    color: #126385;
+    font-size: 25px;
+}
+
+.service p {
+    font-size: 16px;
+}
+
+
+.emergency {
+    border-radius: 15px;
+    background-color: #4197CC;
+    color: #fff;
+    text-align: center;
+    margin-top: 3rem;
+    padding: 1rem;
+
+}
+
+.emergency button {
+    cursor: pointer;
+    margin: 10px;
+    padding: 0.5rem 1rem 0.5rem 1rem;
+    border-radius: 10px;
+}
+.emergency button a {
+    color: black;
+    text-decoration: none;
+}
+
+.emergency button:hover{
+    background-color: rgb(95, 93, 90);
+    color: white;
+}
+.emergency button a:hover{
+    color: white;
+}
+
+.h1-our-key-specialty{
+    color: #126385;
+
+    text-align: center;
+    font-size: 2rem;
+    margin-bottom: 30px;
+    text-decoration: underline;
+}
+
+.our-key-specialty {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    
+}
+
+.specialty h3{
+    text-align: center;
+    width: 90%;
+    color: #126385;
+
+}
+
+.specialty  {
+    display: flex;
+    flex-wrap: wrap;
+    width: calc(100% / 3 - 15px);
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    
+    margin-bottom: 30px;
+    padding: 10px;
+    border: 2px solid black;
+    border-radius: 6px;
+    box-shadow: 8px 7px 23px 0px rgba(0, 0, 0, 0.5);
+
+}
+
+.specialty a{
+    text-decoration: none;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.specialty img{
+    width: 200px;
+    height: 200px;
+    display: block;
+    object-fit: cover;
+
+}
+
+
+.our-check-up-services{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-evenly;
+
+}
+
+.check-up-service{
+        width: calc(100% / 3 - 15px);
+}
+
+.check-up-service h2{
+    color: #126385;
+    width: 92%;
+
+}
+
+.check-up-service ol{
+    text-align: start;
+    padding: 20px;
+}
+
+footer{
+    background-color: black;
+    color: white;
+    text-align: center;
+    font-size: 20px;
+    font-weight: 900;
+    padding: 20px;
+
+
+}
+
+@media screen and (max-width:1150px){
+
+    .our-services{
+        flex-wrap: wrap;
+    }
+    .service{
+        width: calc(80% / 2 - 15px);
+    }
+
+    section{
+        margin: 0 2rem;
+        padding: 10px 0;
+        text-align: center;
+    
+    }
+    .specialty{
+        width: calc(100% / 2 - 15px);
+
+    }
+    
+}
+
+@media screen and (max-width:600px){
+    section{
+        margin: 0 1rem;
+        padding: 10px 0;
+        text-align: center;
+    
+    }
+
+    .mission-vission{
+        display: flex;
+        justify-content: center;
+        text-align: center;
+        align-items: center;
+
+        
+    }
+    .mission{
+        margin-top: 20px;
+        width: 70%;
+    }
+    .specialty{
+        width: calc(100% / 1 - 15px);
+
+    }
+    .check-up-service{
+        width: calc(100% / 1  - 15px);
+}
+.our-services{
+    flex-wrap: wrap;
+}
+.service{
+    width: 65%;
+
+}
+}
+
+
+@media screen and (max-width:280px){
+
+    .mission-vission{
+        display: flex;
+        justify-content: center;
+        text-align: center;
+        align-items: center;
+
+        
+    }
+    .mission{
+        margin-top: 20px;
+        width: 85%;
+    }
+    .our-services{
+        flex-wrap: wrap;
+    }
+    .service{
+        width: 85%;
+    
+    }
+
+}

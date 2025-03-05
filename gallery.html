@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://code.iconify.design/iconify-icon/1.0.7/iconify-icon.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <script src="navScript.js"></script>
+    <link rel="stylesheet" href="nav.css">
+
+    <title>Document</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            font-family: sans-serif;
+
+        }
+
+        .top-h1 {
+            background-image: url(topH1.jpg);
+            height: 15vh;
+
+
+        }
+
+        .top-h1 h1 {
+            background-color: rgb(0 0 0 / 73%);
+            padding: 30px 0px;
+            text-align: center;
+            font-size: 50px;
+            text-decoration: underline;
+            color: rgb(255, 255, 255);
+
+        }
+
+        .images {
+            margin-top: 35px;
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-evenly;
+        }
+
+        .image {
+            display: flex;
+            flex-wrap: wrap;
+            width: calc(80% / 3 - 15px);
+            justify-content: center;
+            margin-bottom: 30px;
+            padding: 10px;
+            border: 2px solid black;
+            border-radius: 6px;
+            box-shadow: 8px 7px 23px 0px rgba(0, 0, 0, 0.5);
+
+        }
+
+        .image img {
+            width: 280px;
+            height: 280px;
+            display: block;
+            object-fit: cover;
+        }
+
+        @media screen and (max-width:1160px) {
+
+            .image {
+                width: calc(80% / 2 - 15px);
+
+            }
+        }
+
+        @media screen and (max-width:770px) {
+
+            .image {
+                width: calc(80% / 1 - 15px);
+
+
+            }
+
+            .image img {
+                width: 200px;
+                height: 200px;
+                display: block;
+                object-fit: cover;
+            }
+        }
+    </style>
+</head>
+
+<body>
+
+    <div id="navbar-container"></div>
+    <div class="top-h1">
+        <h1>GALLERY</h1>
+    </div>
+    <div class="images">
+        <div class="image">
+            <img src="anesthesia.jpg" alt="">
+        </div>
+        <div class="image">
+            <img src="generalPhysician.jpg" alt="">
+        </div>
+        <div class="image">
+            <img src="generalSurgeryAndLaparoscopicSurgery.jpg" alt="">
+        </div>
+        <div class="image">
+            <img src="neuroSurgery.jpg" alt="">
+        </div>
+        <div class="image">
+            <img src="obstetricsAndGynaecology.jpg" alt="">
+        </div>
+        <div class="image">
+            <img src="ophthalmologist.jpg" alt="">
+        </div>
+        <div class="image">
+            <img src="orthopedicsSurgery.jpg" alt="">
+        </div>
+        <div class="image">
+            <img src="physiotherapyAndRehabilitation.jpg" alt="">
+        </div>
+        <div class="image">
+            <img src="plasticSurgery.jpg" alt="">
+        </div>
+        <div class="image">
+            <img src="radiology.jpg" alt="">
+        </div>
+        <div class="image">
+            <img src="serologyDepartment.jpg" alt="">
+        </div>
+        <div class="image">
+            <img src="urology.jpg" alt="">
+        </div>
+    </div>
+</body>
+
+</html>

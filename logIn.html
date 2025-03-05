@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login Form </title>
+
+    <link rel="stylesheet" href="logIn.css">
+    <script src="https://code.iconify.design/iconify-icon/1.0.7/iconify-icon.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <script src="navScript.js"></script>
+    <link rel="stylesheet" href="nav.css">
+    <script src="logIn.js"></script>
+</head>
+
+<body>
+    <div id="navbar-container"></div>
+    <div class="top-h1">
+        <h1>LogIn</h1>
+    </div>
+    <div class="mainContainer">
+
+        <div class="logIncontainer">
+            <h2 class="t-center">Login</h2>
+            <form id="loginForm">
+                <div class="inputDiv">
+                    <label for="name" class="mobileNumber">Mobile Number :</label>
+                    <div class="userArea">
+                        <i class="fa-solid fa-user"></i><input type="text" name="name" id="name"
+                            placeholder="Type your Mobile No.">
+                    </div>
+                    <div id="mobileError" class="error-message"></div>
+                    <hr>
+                </div>
+
+                <div class="inputDiv">
+                    <label for="password" class="otp">Password :</label>
+                    <div class="userArea">
+                        <i class="fa-solid fa-key"></i>
+                        <input type="password" name="password" id="password" placeholder="Type your Password">
+                        <i class="fa-regular fa-eye-slash toggle"></i>
+                        <div id="passwordError" class="error-message"></div>
+                        <hr>
+
+                    </div>
+                    <span class="forgotPassword">Forgot password?</span>
+                    <input type="submit" class="btn" name="button" value="LOGIN">
+                    <div class="formBottom">
+                        <p id="signUp">New Registration : <span>
+                                <a href="signUp.html">SIGN UP </a> </span></p>
+                    </div>
+            </form>
+        </div>
+    </div>
+
+</body>
+
+</html>

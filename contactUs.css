@@ -1,0 +1,212 @@
+        @import url('https://fonts.googleapis.com/css2?family=Poppins&family=Ubuntu:wght@300;700&display=swap');
+
+        * {
+            font-family: sans-serif;
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        
+        body {
+            background: url(hospitelPic12.jpg);
+            backdrop-filter: blur(5px);
+            background-repeat: no-repeat;
+            background-position: center;
+            background-size: cover;
+        }
+        
+        .main-container {
+            padding: 0 0 35px 0;
+
+        }
+        .top-h1 {
+            background-image: url(topH1.jpg);
+            height: 15vh;
+
+
+        }
+
+        .top-h1 h1 {
+            background-color: rgba(0, 0, 0, 0.681);
+            padding: 30px 0px;
+            text-align: center;
+            font-size: 50px;
+            text-decoration: underline;
+            color: rgb(255, 255, 255);
+
+        }
+       
+
+
+        .container {
+            display: flex;
+            justify-content: center;
+            margin: 35px;
+            /* width: calc(100% /2- 15px); */
+
+
+        }
+
+
+
+        .lft {
+            display: flex;
+            align-items: center;
+            background-color: rgba(255, 255, 255, 0.725);
+            border-radius: 10px;
+            margin: 35px 0;
+            padding: 0px;
+            border: 1px solid black;
+            box-shadow: 8px 8px 10px 0px;
+        }
+
+        .lft h2 {
+            margin: 5px 10px;
+            color: rgb(24, 91, 129);
+
+        }
+
+        .lft i {
+            color: rgb(24, 91, 129);
+            margin: 5px 20px;
+            font-size: 45px;
+        }
+
+        label {
+            display: block;
+        }
+
+        .leftt,
+        .rightt {
+            border: 1px solid black;
+            background-color: #fbfbfb86;
+            border-radius: 10px;
+            box-shadow: 8px 8px 20px;
+            margin: 10px;
+            padding: 10px;
+        }
+
+        .c_formbox {
+            padding: 15px;
+        }
+
+        .c_formbox input {
+            background-color: rgba(255, 255, 255, 0.821);
+            border-radius: 10px;
+            width: 100%;
+            height: 40px;
+        }
+
+        textarea {
+            background-color: rgba(255, 255, 255, 0.821);
+            border-radius: 10px;
+
+        }
+
+        .c_formbox label {
+            font-size: 20px;
+            font-weight: 600;
+        }
+
+        .c_formbox-btn input {
+            font-size: 25px;
+            cursor: pointer;
+            background-color: #c5f9f1;
+            width: 100%;
+            height: 50px;
+            margin: auto;
+            border-radius: 30px;
+        }
+
+        .c_formbox-btn input:hover {
+            background-color: #40ddc6;
+        }
+
+        .map {
+            align-items: center;
+            box-shadow: 8px 8px 20px;
+            border: 2px solid #000000;
+            border-radius: 10px;
+
+
+        }
+
+        .map i {
+            display: inline-block;
+            font-size: 45px;
+            margin: 5px 20px;
+            color: rgb(24, 91, 129);
+
+        }
+
+        .map h2 {
+            display: inline;
+            color: rgb(24, 91, 129);
+            margin: 5px 10px;
+        }
+
+        iframe {
+            display: block;
+            margin-top: 10px;
+            width: 100%;
+            height: 300px;
+            border-radius: 10px;
+        }
+
+        .c_formbox textarea {
+            width: 100%;
+        }
+
+
+
+        @media screen and (max-width:900px) {
+
+
+            body {
+                height: 100%;
+                width: 100vw;
+                background: url(hospitelPic12.jpg);
+                backdrop-filter: blur(5px);
+                background-repeat: no-repeat;
+                background-position: center;
+                background-size: cover;
+                margin: 0;
+                padding: 0;
+
+
+            }
+
+            .container {
+                display: flex;
+                flex-wrap: wrap;
+            }
+
+            .lft {
+                display: flex;
+                flex-direction: column;
+            }
+
+            iframe {
+                width: 100%;
+            }
+
+            .map {
+                display: flex;
+                flex-direction: column;
+            }
+
+            .c_formbox textarea {
+                width: 100%;
+            }
+
+        }
+
+        @media screen and (max-width:280px) {
+            iframe {
+                width: 100%;
+            }
+
+            .c_formbox textarea {
+                width: 100%;
+            }
+        }

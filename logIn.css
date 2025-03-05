@@ -1,0 +1,223 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@300;500;700&display=swap');
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+body {
+    background: url(hospitelPic12.jpg);
+    backdrop-filter: blur(5px);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 100vh;
+    overflow: hidden;
+}
+
+.mainContainer {
+    padding-top: 25px;
+    height: 75vh;    
+}
+
+.top-h1 {
+    background-image: url(topH1.jpg);
+    height: 15vh;
+}
+
+.top-h1 h1 {
+    background-color: rgba(0, 0, 0, 0.681);
+    padding: 30px 0px;
+    text-align: center;
+    font-size: 50px;
+    text-decoration: underline;
+    color: rgb(255, 255, 255);
+
+}
+
+.logIncontainer { 
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: rgba(255, 255, 255, 0.725);
+    border-radius: 10px;
+    width: 25rem;
+    padding: 25px;
+    margin: auto;
+    border: 1px solid black;
+    box-shadow: 8px 8px 10px 0px;
+
+}
+
+.logIncontainer h2 {
+    font-size: 1.5rem;
+    margin: 2rem;
+}
+
+.logIncontainer form input {
+    font-weight: 400;
+    border: none;
+    font-size: 1rem;
+    background-color: #ffffff00;
+}
+
+::placeholder {
+    color: #4f5b59;
+}
+
+input:focus {
+    outline: none;
+}
+
+.logIncontainer form .username,
+.logIncontainer form .otp {
+    margin-bottom: .7rem;
+}
+
+.logIncontainer form i {
+    font-size: 0.9rem;
+    margin-right: 0.1rem;
+}
+
+.userArea {
+    margin-top: 0.5rem;
+    margin-bottom: 0.5rem;
+}
+
+.logIncontainer form .forgotPassword {
+    right: 0rem;
+    cursor: pointer;
+    bottom: 17rem;
+    color: rgb(30, 38, 44);
+    font-size: 1rem;
+}
+
+.inputDiv {
+    display: flex;
+    flex-direction: column;
+    padding-bottom: .8rem;
+}
+
+.formBottom {
+    text-align: center;
+}
+
+.formBottom p {
+    margin-bottom: .5rem;
+    font-size: .8rem;
+}
+
+/* Utility Classes */
+.t-center {
+    text-align: center;
+}
+
+.btn {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    border: none;
+    border-radius: 0.8rem;
+    cursor: pointer;
+    font-size: 20px;
+    padding: 0.7rem 0.8rem;
+    background: linear-gradient(to right, #8d68c5, #e34494);
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    color: #fff;
+}
+
+#signUp {
+    font-size: 1rem;
+}
+
+#signUp span a {
+    color: red;
+}
+
+#signUp:hover a {
+    color: #e6935c;
+}
+
+/* Error message styling */
+.error-message {
+    color: red;
+    margin-top: 0.3rem;
+    font-size: 0.8rem;
+}
+
+.toggle {
+    cursor: pointer;
+}
+
+.logIncontainer form .userArea fa-regular {
+    position: absolute;
+    top: 50%;
+    right: 10px;
+    transform: translateY(-50%);
+}
+
+@media screen and (max-width:1200px) {
+
+    .logIncontainer {
+        width: 25rem;
+       
+    }
+
+    .toggle {
+        margin: 0;
+        padding-left: 2rem;
+        cursor: pointer;
+    }
+
+}
+
+@media screen and (max-width:500px) {
+
+    .logIncontainer {
+        padding: 0.5rem 1rem;
+        width: 20rem;
+        /* margin: 0.2rem; */
+        /* width: 40vh; */
+    }
+
+    .toggle {
+        margin: 0;
+        padding-left: 2rem;
+        cursor: pointer;
+    }
+
+}
+
+@media screen and (max-width:400px) {
+    .logIncontainer {
+        width: 15rem;
+    }
+
+    .logIncontainer form input {
+        font-weight: 500;
+        font-size: 0.6rem;
+    }
+}
+
+@media screen and (max-width:280px) {
+
+    .logIncontainer {
+        padding: 0.5rem 1rem;
+        width: 12rem;
+    }
+
+    .logIncontainer form i {
+        font-size: 0.7rem;
+    }
+
+    .logIncontainer form input {
+        font-weight: 700;
+        font-size: 0.4rem;
+    }
+
+}

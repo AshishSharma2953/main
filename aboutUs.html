@@ -1,0 +1,289 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="https://code.iconify.design/iconify-icon/1.0.7/iconify-icon.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <script src="navScript.js"></script>
+    <link rel="stylesheet" href="nav.css">
+
+    <style>
+        * {
+            padding: 0;
+            margin: 0;
+            box-sizing: border-box;
+            font-family: sans-serif;
+        }
+
+        .top-h1 {
+            background-image: url(topH1.jpg);
+            height: 15vh;
+
+
+        }
+
+        .top-h1 h1 {
+            background-color: rgba(0, 0, 0, 0.681);
+            padding: 30px 0px;
+            text-align: center;
+            font-size: 50px;
+            text-decoration: underline;
+            color: rgb(255, 255, 255);
+
+        }
+
+        section {
+            margin: 0 4rem;
+            padding: 25px 0;
+
+        }
+
+        .about-our-hospital {
+            display: flex;
+            flex-direction: column;
+
+        }
+
+        .about-our-hospital h1 {
+            font-size: 40px;
+            color: #126385;
+            text-align: center;
+            margin-bottom: 20px;
+        }
+
+        .about-our-hospital p {
+            font-size: 1rem;
+            line-height: 2;
+        }
+
+        .mission-vission {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-evenly;
+        }
+
+        .mission {
+            border: 2px solid #126385;
+            border-radius: 10px;
+            box-shadow: 8px 7px 23px 0px rgba(0, 0, 0, 0.5);
+            line-height: 1.5;
+            padding: 0 5px 20px 5px;
+            /* width: calc(100% / 2 - 55px); */
+            width: 40%;
+        }
+
+        .mission h1 {
+            color: #126385;
+            margin-top: 20px;
+            margin-bottom: 20px;
+            font-size: 30px;
+            text-align: center;
+        }
+
+        .our-services {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            text-align: center;
+        }
+
+        .service {
+            margin: 5px 15px 5px 15px;
+            padding: 25px 10px 35px 10px;
+            border-radius: 15px;
+            box-shadow: 8px 7px 23px 0px rgba(0, 0, 0, 0.5);
+            border: 2px solid #126385;
+            line-height: 1.5;
+            height: 350px;
+            width: calc(100% / 4 - 15px);
+        }
+
+
+
+        .service i {
+            margin: 0.5rem 0 1rem 0;
+            font-size: 3rem;
+            color: #5e8ea2
+        }
+
+        .service h1 {
+            /* color: #126385; */
+            font-size: 25px;
+            color: #126385;
+            margin-top: 20px;
+            margin-bottom: 20px;
+            /* font-size: 30px; */
+            text-align: center;
+        }
+
+        .service p {
+            font-size: 16px;
+        }
+
+        @media screen and (max-width:1150px) {
+            section {
+                margin: 0 2rem;
+                padding: 10px 0;
+                text-align: center;
+
+            }
+
+
+            .our-services {
+                flex-wrap: wrap;
+            }
+
+            .service {
+                width: calc(80% / 2 - 15px);
+            }
+
+        }
+
+        @media screen and (max-width:635px) {
+            section {
+                margin: 0 1rem;
+                padding: 10px 0;
+                text-align: center;
+
+            }
+
+            .mission-vission {
+                display: flex;
+                justify-content: center;
+                text-align: center;
+                align-items: center;
+
+
+            }
+
+
+            .mission {
+                margin-top: 20px;
+                width: 70%;
+            }
+
+            .check-up-service {
+                width: calc(80% / 1 - 15px);
+            }
+
+            .our-services {
+                flex-wrap: wrap;
+            }
+
+            .service {
+                width: 65%;
+
+            }
+        }
+
+
+        @media screen and (max-width:280px) {
+
+            .mission-vission {
+                display: flex;
+                justify-content: center;
+                text-align: center;
+                align-items: center;
+
+
+            }
+
+            .mission {
+                margin-top: 20px;
+                width: 100%;
+                height: 82%;
+            }
+
+            .our-services {
+                flex-wrap: wrap;
+            }
+
+            .service {
+                width: 100%;
+                height: 82%;
+
+            }
+
+        }
+    </style>
+</head>
+
+<body>
+    
+    <div id="navbar-container"></div>
+    <div class="top-h1">
+        <h1>ABOUT US</h1>
+    </div>
+    <section>
+        <div class="about-our-hospital">
+            <h1 class="h1">About Hospital</h1>
+            <p>(Hospital Name....) Hospital, is a 51 Bedded multispeciality hospital situated in the heart of the
+                (Location Name.....) Region (State Name...) offering all kind of services (i.e,- OPD, IPD, Emergency,
+                Day Care & Critical
+                Care Services) with state of the art equipments, world class Infrastructure & advanced healthcare
+                technology at a very affordable cost. With the motto “your life is our concern” we believe in the
+                best quality, affordable and approachable treatment in terms of both preventive and curative medical
+                care to the patients’. We are highly focused in providing standard of care clinical services, safe
+                environment and respect for patient rights & privacy thereby minimizing risk of infection & greater
+                patient satisfaction. (Hospital Name.....) Hospital is currently the largest hospital of the (Location
+                Name....)
+                spread across 30,667.14 sqr feet of covered area. The hospital was started on (Date....) with a team
+                of renowned doctors from different background. The owner and medical director of the Hospital is (Doctor
+                Name/ Owner Name....)</p>
+        </div>
+    </section>
+
+    <section>
+        <div class="mission-vission">
+            <div class="mission">
+                <h1>MISSION</h1>
+                <p>Our mission is To provide quality healthcare at an affordable cost (Financially within reach) to
+                    the community.</p>
+            </div>
+            <div class="mission">
+                <h1>VISION</h1>
+                <p>Our Vision is to upgrade our health facilities continuously so as to excel in providing quality
+                    medical care and to provide world class health services. Values- Safety, Integrity, Respect</p>
+            </div>
+        </div>
+    </section>
+
+
+    <section>
+        <div class="our-services">
+            <div class="service">
+                <i class="fa-solid fa-heart-pulse"></i>
+                <h1>Qualified Doctors</h1>
+                <p>Doctors and specialists at Our Hospital are considering the amount of experience and expertise
+                    they bring with them in their respective domains.</p>
+            </div>
+            <div class="service">
+                <i class="fa-solid fa-pump-medical"></i>
+                <h1>Modern Equipment</h1>
+                <p>Our Hospital incorporates the latest medical equipment in patient care that helps the doctors
+                    diagnose diseases and treat patients effectively.</p>
+            </div>
+            <div class="service">
+                <i class="fa-solid fa-thermometer"></i>
+                <h1>Quality & Safety</h1>
+                <p>Patient Safety is a health care discipline that emerged with the evolving complexity in health care
+                    systems in health care facilities.</p>
+            </div>
+            <div class="service">
+                <i class="fa-solid fa-handshake-angle"></i>
+                <h1>Emergency Help</h1>
+                <p>The hospital provides emergency services, with a facility that is fully equipped and managed by a
+                    dedicated team of qualified professionals.</p>
+            </div>
+        </div>
+    </section>
+</body>
+</html>
+
+
+
+
+

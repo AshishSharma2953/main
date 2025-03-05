@@ -1,0 +1,157 @@
+/* CSS styles */
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@300;500;700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+body {
+    background: url(hospitelPic12.jpg);
+    backdrop-filter: blur(5px);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 100%;
+}
+
+.top-h1 {
+    background-image: url(topH1.jpg);
+    height: 15%;
+    margin-bottom: 40px;
+
+}
+
+.top-h1 h1 {
+    background-color: rgba(0, 0, 0, 0.681);
+    padding: 30px 0px;
+    text-align: center;
+    font-size: 50px;
+    text-decoration: underline;
+    color: rgb(255, 255, 255);
+}
+
+.main-container {
+    height: 100%;
+    padding: 50px 0 35px 0;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: rgba(255, 255, 255, 0.725);
+    border-radius: 10px;
+    margin: auto;
+    height: 75%;
+    width: 25rem;
+    border: 1px solid black;
+    box-shadow: 8px 8px 10px 0px;
+}
+
+.container form {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.container h2 {
+    font-size: 1.5rem;
+    margin: 2rem;
+}
+
+.container form input {
+    border: none;
+    font-size: 1rem;
+    background-color: #ffffff00;
+    margin-top: 0.5rem;
+}
+
+::placeholder {
+    color: #4f5b59;
+}
+
+input:focus {
+    outline: none;
+}
+
+.container form .forgotPassword {
+    right: 0rem;
+    cursor: pointer;
+    bottom: 17rem;
+    color: rgb(30, 38, 44);
+    font-size: 1rem;
+}
+
+.inputDiv {
+    display: flex;
+    flex-direction: column;
+    margin-top: 1rem;
+}
+
+.formBottom {
+    text-align: center;
+}
+
+
+
+/* Utility Classes */
+.t-center {
+    text-align: center;
+}
+
+.btn {
+    border-radius: 0.8rem;
+    cursor: pointer;
+    font-size: 20px;
+    height: 40px;
+    background: linear-gradient(to right, #8d68c5, #e34494);
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    color: #fff;
+}
+
+.btn:hover {
+    color: #e3be5a;
+}
+
+#signUp {
+    font-size: 1rem;
+}
+
+
+#signUp:hover a {
+    color: #e6935c;
+}
+
+/* Error message styling */
+.error-message {
+    color: red;
+    margin-top: 0.3rem;
+    font-size: 0.8rem;
+}
+
+
+
+
+@media screen and (max-width: 450px) {
+    .container {
+        width: 20rem;
+
+    }
+}
+
+@media screen and (max-width: 350px) {
+    .container {
+        width: 15rem;
+
+    }
+}
+
+@media screen and (max-width: 270px) {
+    .container {
+        width: 15rem;
+    }
+}
