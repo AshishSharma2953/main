@@ -24,7 +24,7 @@ body {
 
 .mainContainer {
     padding-top: 25px;
-    height: 75vh;
+    /* height: 75vh; */
     margin-top: 15px;    
 }
 
@@ -189,12 +189,12 @@ input:focus {
         /* margin: 0.2rem; */
         /* width: 40vh; */
     }
-
+/* 
     .toggle {
         margin: 0;
         padding-left: 2rem;
         cursor: pointer;
-    }
+    } */
 
 }
 
