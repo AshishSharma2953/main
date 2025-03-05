@@ -232,6 +232,7 @@ nav a {
     }
 
     nav {
+        /* height: 12vh; */
         justify-content: space-between;
 
     }
@@ -244,7 +245,7 @@ nav a {
         width: 100%;
         position: absolute;
         left: 0%;
-        top: 80px;
+        top: 78px;
         transition: all 0.5s;
         transform: scaleY(0);
         transform-origin: top;

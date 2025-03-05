@@ -7,6 +7,10 @@
     box-sizing: border-box;
     font-family: sans-serif;
 }
+html{
+    height: 100%;
+    width: 100%;
+}
 
 body {
     background: url(hospitelPic12.jpg);
@@ -14,27 +18,28 @@ body {
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
-    height: 100vh;
+    height: 100%;
     overflow: hidden;
 }
 
 .mainContainer {
     padding-top: 25px;
-    height: 75vh;    
+    height: 75vh;
+    margin-top: 15px;    
 }
 
 .top-h1 {
     background-image: url(topH1.jpg);
-    height: 15vh;
+    /* height: 15vh; */
 }
 
 .top-h1 h1 {
-    background-color: rgba(0, 0, 0, 0.681);
+    background-color: rgb(0 0 0 / 73%);
     padding: 30px 0px;
     text-align: center;
     font-size: 50px;
     text-decoration: underline;
-    color: rgb(255, 255, 255);
+    color: rgb(255, 255, 255)
 
 }
 
@@ -180,7 +185,7 @@ input:focus {
 
     .logIncontainer {
         padding: 0.5rem 1rem;
-        width: 20rem;
+        width: 22rem;
         /* margin: 0.2rem; */
         /* width: 40vh; */
     }
@@ -195,7 +200,7 @@ input:focus {
 
 @media screen and (max-width:400px) {
     .logIncontainer {
-        width: 15rem;
+        width: 17rem;
     }
 
     .logIncontainer form input {
@@ -208,7 +213,7 @@ input:focus {
 
     .logIncontainer {
         padding: 0.5rem 1rem;
-        width: 12rem;
+        width: 14rem;
     }
 
     .logIncontainer form i {
